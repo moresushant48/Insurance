@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="InsuranceManagement._Default" %>
 
+<%@ Register Src="~/views/footer.ascx" TagPrefix="uc1" TagName="footer" %>
+
+
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="text-center" style="
@@ -26,5 +29,7 @@
             </div>
         </div>
     </div>
+
+    <uc1:footer runat="server" ID="footer" />
 
 </asp:Content>
