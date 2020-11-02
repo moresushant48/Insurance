@@ -1,0 +1,20 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+body:not(.modal-open) {
+    padding-right: 0px !important;
+}
+
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
+}
