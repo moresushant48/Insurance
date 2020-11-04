@@ -2,7 +2,7 @@
 
 <div class="container py-4 d-flex">
     <div class="col-8">
-        <p class="h1-responsive"> Mail Us </p>
+        <p class="h1-responsive">Contact Us</p>
         <hr />
         
         <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Always">
