@@ -49,6 +49,15 @@ namespace InsuranceManagement.views {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDashboard;
         
         /// <summary>
+        /// liAgentDashboard control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAgentDashboard;
+        
+        /// <summary>
         /// liAccount control.
         /// </summary>
         /// <remarks>

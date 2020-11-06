@@ -21,9 +21,19 @@ namespace InsuranceManagement.views
                 liSignup.Visible = false;
 
                 liDashboard.Visible = false;
+                liAgentDashboard.Visible = false;
                 liAccount.Visible = true;
 
                 btnLogout.Visible = true;
+
+                if(Session["userId"].ToString() == 1.ToString())
+                {
+                    liDashboard.Visible = true;
+                }
+                else
+                {
+                    liAgentDashboard.Visible = true;
+                }
                 
             }
             else
@@ -39,6 +49,7 @@ namespace InsuranceManagement.views
                 liAccount.Visible = false;
 
                 liDashboard.Visible = false;
+                liAgentDashboard.Visible = false;
 
             }
         }
