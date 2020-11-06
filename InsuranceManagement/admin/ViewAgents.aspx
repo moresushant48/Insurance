@@ -20,8 +20,8 @@
                             <th>Name</th>
                             <th>Email</th>
                             <th>Mobile</th>
-                            <th>Address</th>
-                            <th>Pin Code</th>
+                            <th>Gender</th>
+                            <th>Password</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -36,10 +36,10 @@
                                     <td><%# String.Format("{0} {1} {2}",Eval("fname"), Eval("mname"), Eval("lname")) %></td>
                                     <td><%#Eval("email") %></td>
                                     <td><%#Eval("phone") %></td>
-                                    <td><%#Eval("address") %></td>
-                                    <td><%#Eval("pincode") %></td>
+                                    <td><%#Eval("gender") %></td>
+                                    <td><%#Eval("password") %></td>
                                     <td>
-                                        <asp:Button runat="server" ID="DeleteUser" Text="Delete" CommandArgument='<%#Eval("id")%>' CommandName="deleteUser" OnClick="DeleteUser_Click" OnClientClick="javascript:return confirm('Are you sure to delete record?')" CssClass="btn btn-red btn-block p-1" />
+                                        <asp:Button runat="server" ID="DeleteUser" ValidationGroup="deleteUser" Text="Delete" CommandArgument='<%#Eval("id")%>' CommandName="deleteUser" OnClick="DeleteUser_Click" OnClientClick="javascript:return confirm('Are you sure to delete record?')" CssClass="btn btn-red btn-block p-1" />
                                     </td>
                                 </tr>
                             </tbody>

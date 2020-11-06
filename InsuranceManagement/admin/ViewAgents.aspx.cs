@@ -49,6 +49,8 @@ namespace InsuranceManagement.admin
             using (SqlConnection con = new SqlConnection(_Default.conString))
             {
                 con.Open();
+                int tempPass = new Random().Next(000000, 999999);
+
                 String query = "INSERT INTO agents VALUES (" +
                     "'" + txtFirstName.Text.Trim() + "'," +
                     "'" + txtMiddleName.Text.Trim() + "'," +
@@ -57,7 +59,8 @@ namespace InsuranceManagement.admin
                     "'" + txtMobNo.Text.Trim() + "'," +
                     "'" + txtGender.SelectedValue.Trim().ToString() + "'," +
                     "'" + txtAddress.Text.Trim() + "'," +
-                    "'" + txtPincode.Text.Trim() + "')";
+                    "'" + txtPincode.Text.Trim() + "'," +
+                    "'" + tempPass + "')";
 
                 using (SqlCommand cmd = new SqlCommand(query, con))
                 {
