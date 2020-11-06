@@ -12,7 +12,10 @@
     <div class="d-flex">
         <div class="bg-light border-right col-2" id="sidebar-wrapper">
             <div class="list-group list-group-flush">
+                
                 <a href="/admin/ViewAgents" class="list-group-item list-group-item-action bg-light">Agents</a>
+                <a href="/admin/ViewCustomers" class="list-group-item list-group-item-action bg-light">Customers</a>
+
             </div>
         </div>
         
