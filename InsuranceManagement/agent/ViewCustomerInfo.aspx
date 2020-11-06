@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/agent/AgentSidebar.master" AutoEventWireup="true" CodeBehind="ViewCustomerInfo.aspx.cs" Inherits="InsuranceManagement.agent.ViewCustomerInfo" %>
+﻿<%@ Page Title="Customer Info" Language="C#" MasterPageFile="~/agent/AgentSidebar.master" AutoEventWireup="true" CodeBehind="ViewCustomerInfo.aspx.cs" Inherits="InsuranceManagement.agent.ViewCustomerInfo" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="SidebarContent" runat="server">
 
     <div class="d-flex vh-100">
