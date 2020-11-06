@@ -11,7 +11,10 @@ namespace InsuranceManagement.agent
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["loggedIn"] == null || Session["userId"].ToString() == 1.ToString())
+            {
+                Response.Redirect("/");
+            }
         }
     }
 }

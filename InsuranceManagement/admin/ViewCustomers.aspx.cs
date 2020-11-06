@@ -13,7 +13,10 @@ namespace InsuranceManagement.admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["loggedIn"] == null || Session["userId"].ToString() != 1.ToString())
+            {
+                Response.Redirect("/");
+            }
         }
 
         protected void btnAddCustomer_Click(object sender, EventArgs e)

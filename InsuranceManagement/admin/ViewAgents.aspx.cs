@@ -14,10 +14,10 @@ namespace InsuranceManagement.admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            /*if (Session["loggedIn"] == null || Session["roleId"].ToString() != Roles.ADMIN)
+            if (Session["loggedIn"] == null || Session["userId"].ToString() != 1.ToString())
             {
                 Response.Redirect("/");
-            }*/
+            }
         }
 
         protected void DeleteUser_Click(object sender, EventArgs e)

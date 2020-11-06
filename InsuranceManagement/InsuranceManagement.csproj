@@ -110,6 +110,7 @@
     <Content Include="admin\ViewAgents.aspx" />
     <Content Include="admin\ViewCustomerInfo.aspx" />
     <Content Include="admin\ViewCustomers.aspx" />
+    <Content Include="agent\AgentDashboard.aspx" />
     <Content Include="agent\ViewCustomerInfo.aspx" />
     <Content Include="agent\ViewCustomers.aspx" />
     <Content Include="Content\Sidebar.css" />
@@ -206,6 +207,13 @@
     </Compile>
     <Compile Include="admin\ViewCustomers.aspx.designer.cs">
       <DependentUpon>ViewCustomers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="agent\AgentDashboard.aspx.cs">
+      <DependentUpon>AgentDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agent\AgentDashboard.aspx.designer.cs">
+      <DependentUpon>AgentDashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="agent\AgentSidebar.master.cs">
       <DependentUpon>AgentSidebar.master</DependentUpon>
