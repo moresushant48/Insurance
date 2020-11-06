@@ -22,15 +22,6 @@ namespace InsuranceManagement {
         protected global::System.Web.UI.WebControls.Label lblName;
         
         /// <summary>
-        /// btnOpenPasswordDialog control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnOpenPasswordDialog;
-        
-        /// <summary>
         /// txtFirstName control.
         /// </summary>
         /// <remarks>
@@ -130,13 +121,13 @@ namespace InsuranceManagement {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator6;
         
         /// <summary>
-        /// txtBloodGroup control.
+        /// txtGender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBloodGroup;
+        protected global::System.Web.UI.WebControls.TextBox txtGender;
         
         /// <summary>
         /// UpdatePanel3 control.

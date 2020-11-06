@@ -34,7 +34,7 @@ namespace InsuranceManagement
                         txtLastName.Text = reader.GetString(3);
                         txtEmail.Text = reader.GetString(4);
                         txtPhone.Text = reader.GetString(5);
-                        txtBloodGroup.Text = reader.GetString(6);
+                        txtGender.Text = reader.GetString(6);
                         txtAddress.Text = reader.GetString(7);
                     }
                     cmd.Dispose();

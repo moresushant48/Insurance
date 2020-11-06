@@ -5,9 +5,9 @@
     
     <main class="">
 
-       <div style="height:300px" class="w-100 blue-gradient py-3">
+       <div style="height:300px" class="w-100 py-3 bg-light">
 
-           <div class="container text-white">
+           <div class="container">
                <h1 class="display-3">Hello, <asp:Label ID="lblName" runat="server"></asp:Label></h1>
            </div>
 
@@ -17,8 +17,8 @@
                    <div class="card-header bg-white d-flex">
                        <p class="h2-responsive mr-auto">My Account</p>
                        <div class="ml-auto">
-                           <asp:Button ID="btnOpenPasswordDialog" runat="server" Text="Change Password" CssClass="btn btn-block btn-secondary"
-                               data-toggle="modal" data-target="#centralModalSm"/>
+                           <a id="btnOpenPasswordDialog" class="btn btn-block btn-secondary"
+                               data-toggle="modal" data-target="#centralModalSm">Change Password</a>
                            
                        </div>
                        
@@ -88,8 +88,8 @@
 
                            <div class="col-4 form-group">
                 
-                               <label for="txtBloodGroup">Blood Group</label>
-                               <asp:TextBox ID="txtBloodGroup" runat="server" Enabled="false" CssClass="card form-control" TextMode="SingleLine"></asp:TextBox>
+                               <label for="txtGender">Gender</label>
+                               <asp:TextBox ID="txtGender" runat="server" Enabled="false" CssClass="card form-control" TextMode="SingleLine"></asp:TextBox>
                 
                            </div>
 
