@@ -45,7 +45,7 @@
 
         <div class="text-center">
 
-            <asp:Button ID="btnLogin" runat="server" CssClass="btn btn-primary" Text="Submit" />
+            <asp:Button ID="btnLogin" runat="server" CssClass="btn btn-primary" Text="Submit" OnClick="btnLogin_Click"/>
 
         </div>
 

@@ -24,14 +24,6 @@ namespace InsuranceManagement.views
                 liAccount.Visible = true;
 
                 btnLogout.Visible = true;
-
-                /*
-                 Admin Navigation
-                 */
-                if (Session["roleId"].ToString() == Roles.ADMIN)
-                {
-                    liDashboard.Visible = true;
-                }
                 
             }
             else
