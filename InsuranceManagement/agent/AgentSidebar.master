@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AgentSidebar.master.cs" Inherits="InsuranceManagement.agent.AgentSidebar" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainHeader" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div class="d-flex">
+        <div class="bg-light border-right col-2" id="sidebar-wrapper">
+            <div class="list-group list-group-flush">
+                <a href="/agent/ViewCustomers" class="list-group-item list-group-item-action bg-light">Customers</a>
+                <a href="/agent/ViewPolicies" class="list-group-item list-group-item-action bg-light">Policies</a>
+            </div>
+        </div>
+        
+        <div id="page-content-wrapper" class="col-10">
+            <asp:ContentPlaceHolder ID="SidebarContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+
+</asp:Content>

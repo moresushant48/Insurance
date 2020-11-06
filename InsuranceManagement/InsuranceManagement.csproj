@@ -105,6 +105,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\ViewAgents.aspx" />
+    <Content Include="agent\ViewCustomerInfo.aspx" />
+    <Content Include="agent\ViewCustomers.aspx" />
+    <Content Include="Content\Sidebar.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -114,6 +118,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="admin\AdminSidebar.master" />
+    <Content Include="agent\AgentSidebar.master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="images\main.jpg" />
     <Content Include="Scripts\bootstrap.js" />
@@ -155,6 +161,41 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin\AdminSidebar.master.cs">
+      <DependentUpon>AdminSidebar.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AdminSidebar.master.designer.cs">
+      <DependentUpon>AdminSidebar.master</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ViewAgents.aspx.cs">
+      <DependentUpon>ViewAgents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ViewAgents.aspx.designer.cs">
+      <DependentUpon>ViewAgents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="agent\AgentSidebar.master.cs">
+      <DependentUpon>AgentSidebar.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agent\AgentSidebar.master.designer.cs">
+      <DependentUpon>AgentSidebar.master</DependentUpon>
+    </Compile>
+    <Compile Include="agent\ViewCustomerInfo.aspx.cs">
+      <DependentUpon>ViewCustomerInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agent\ViewCustomerInfo.aspx.designer.cs">
+      <DependentUpon>ViewCustomerInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="agent\ViewCustomers.aspx.cs">
+      <DependentUpon>ViewCustomers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agent\ViewCustomers.aspx.designer.cs">
+      <DependentUpon>ViewCustomers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Default.aspx.cs">

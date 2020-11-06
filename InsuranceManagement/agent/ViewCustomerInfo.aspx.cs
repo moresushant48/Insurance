@@ -5,12 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace InsuranceManagement
+namespace InsuranceManagement.agent
 {
-    public partial class _Default : Page
+    public partial class ViewCustomerInfo : System.Web.UI.Page
     {
-        public static String conString = "Data Source=.;Initial Catalog=insurance;Integrated Security=True";
-
         protected void Page_Load(object sender, EventArgs e)
         {
 
