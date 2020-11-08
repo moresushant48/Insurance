@@ -110,6 +110,8 @@
     <Content Include="admin\ViewAgents.aspx" />
     <Content Include="admin\ViewCustomerInfo.aspx" />
     <Content Include="admin\ViewCustomers.aspx" />
+    <Content Include="admin\ViewPolicies.aspx" />
+    <Content Include="admin\ViewPolicyExtra.aspx" />
     <Content Include="agent\AgentDashboard.aspx" />
     <Content Include="agent\ViewCustomerInfo.aspx" />
     <Content Include="agent\ViewCustomers.aspx" />
@@ -207,6 +209,20 @@
     </Compile>
     <Compile Include="admin\ViewCustomers.aspx.designer.cs">
       <DependentUpon>ViewCustomers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ViewPolicies.aspx.cs">
+      <DependentUpon>ViewPolicies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ViewPolicies.aspx.designer.cs">
+      <DependentUpon>ViewPolicies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ViewPolicyExtra.aspx.cs">
+      <DependentUpon>ViewPolicyExtra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ViewPolicyExtra.aspx.designer.cs">
+      <DependentUpon>ViewPolicyExtra.aspx</DependentUpon>
     </Compile>
     <Compile Include="agent\AgentDashboard.aspx.cs">
       <DependentUpon>AgentDashboard.aspx</DependentUpon>
