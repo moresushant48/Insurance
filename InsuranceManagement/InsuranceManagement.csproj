@@ -115,6 +115,8 @@
     <Content Include="agent\AgentDashboard.aspx" />
     <Content Include="agent\ViewCustomerInfo.aspx" />
     <Content Include="agent\ViewCustomers.aspx" />
+    <Content Include="agent\ViewPolicies.aspx" />
+    <Content Include="agent\ViewPolicyExtra.aspx" />
     <Content Include="Content\Sidebar.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
@@ -251,6 +253,20 @@
     </Compile>
     <Compile Include="agent\ViewCustomers.aspx.designer.cs">
       <DependentUpon>ViewCustomers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="agent\ViewPolicies.aspx.cs">
+      <DependentUpon>ViewPolicies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agent\ViewPolicies.aspx.designer.cs">
+      <DependentUpon>ViewPolicies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="agent\ViewPolicyExtra.aspx.cs">
+      <DependentUpon>ViewPolicyExtra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agent\ViewPolicyExtra.aspx.designer.cs">
+      <DependentUpon>ViewPolicyExtra.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
