@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/admin/AdminSidebar.master" AutoEventWireup="true" CodeBehind="ViewPolicies.aspx.cs" Inherits="InsuranceManagement.admin.ViewPolicies" %>
+﻿<%@ Page Title="Policies" Language="C#" MasterPageFile="~/admin/AdminSidebar.master" AutoEventWireup="true" CodeBehind="ViewPolicies.aspx.cs" Inherits="InsuranceManagement.admin.ViewPolicies" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeaderContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="SidebarContent" runat="server">
