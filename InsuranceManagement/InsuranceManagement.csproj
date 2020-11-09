@@ -112,8 +112,10 @@
     <Content Include="admin\ViewCustomers.aspx" />
     <Content Include="admin\ViewPolicies.aspx" />
     <Content Include="admin\ViewPolicyExtra.aspx" />
+    <Content Include="agent\AddCustomerToPolicy.aspx" />
     <Content Include="agent\AgentDashboard.aspx" />
     <Content Include="agent\ViewCustomerInfo.aspx" />
+    <Content Include="agent\ViewCustomerPolicies.aspx" />
     <Content Include="agent\ViewCustomers.aspx" />
     <Content Include="agent\ViewPolicies.aspx" />
     <Content Include="agent\ViewPolicyExtra.aspx" />
@@ -226,6 +228,13 @@
     <Compile Include="admin\ViewPolicyExtra.aspx.designer.cs">
       <DependentUpon>ViewPolicyExtra.aspx</DependentUpon>
     </Compile>
+    <Compile Include="agent\AddCustomerToPolicy.aspx.cs">
+      <DependentUpon>AddCustomerToPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agent\AddCustomerToPolicy.aspx.designer.cs">
+      <DependentUpon>AddCustomerToPolicy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="agent\AgentDashboard.aspx.cs">
       <DependentUpon>AgentDashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -246,6 +255,13 @@
     </Compile>
     <Compile Include="agent\ViewCustomerInfo.aspx.designer.cs">
       <DependentUpon>ViewCustomerInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="agent\ViewCustomerPolicies.aspx.cs">
+      <DependentUpon>ViewCustomerPolicies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agent\ViewCustomerPolicies.aspx.designer.cs">
+      <DependentUpon>ViewCustomerPolicies.aspx</DependentUpon>
     </Compile>
     <Compile Include="agent\ViewCustomers.aspx.cs">
       <DependentUpon>ViewCustomers.aspx</DependentUpon>
