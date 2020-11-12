@@ -42,6 +42,10 @@
                             </tbody>
             
                         </ItemTemplate>
+                        
+                        <EmptyDataTemplate>
+                            <h2 class="text-info">No data found.</h2>
+                        </EmptyDataTemplate>
 
                     </asp:ListView>
     
@@ -93,7 +97,7 @@
                                 <label for="txtPolicyDesc">Policy Description</label>
                                 <asp:TextBox ID="txtPolicyDesc" runat="server" TextMode="MultiLine" Rows="4" CssClass="form-control mb-4" ></asp:TextBox>
                 
-                                <asp:RegularExpressionValidator ForeColor="Red" Display="Dynamic" ID="RegularExpressionValidator5" runat="server" ControlToValidate="txtPolicyDesc" ErrorMessage="Minimum 10 & Maximum 500 Characters" ValidationExpression="^{10,90}$"></asp:RegularExpressionValidator>
+                                <asp:RegularExpressionValidator ForeColor="Red" Display="Dynamic" ID="RegularExpressionValidator5" runat="server" ControlToValidate="txtPolicyDesc" ErrorMessage="Minimum 10 & Maximum 500 Characters" ValidationExpression="^{10,500}$"></asp:RegularExpressionValidator>
                                 <asp:RequiredFieldValidator ForeColor="Red" Display="Dynamic"  ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtPolicyDesc" ErrorMessage="Please enter your Policy Description."></asp:RequiredFieldValidator>
                 
                             </div>

@@ -46,6 +46,10 @@
             
                         </ItemTemplate>
 
+                        <EmptyDataTemplate>
+                            <h2 class="text-info">No data found.</h2>
+                        </EmptyDataTemplate>
+
                     </asp:ListView>
     
                 </table>
