@@ -7,13 +7,13 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace InsuranceManagement.agent
+namespace InsuranceManagement.admin
 {
     public partial class AddCustomerToPolicy : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["loggedIn"] == null || Session["userId"].ToString() == 1.ToString())
+            if (Session["loggedIn"] == null || Session["userId"].ToString() != 1.ToString())
             {
                 Response.Redirect("/");
             }

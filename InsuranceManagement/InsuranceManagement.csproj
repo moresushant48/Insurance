@@ -106,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account.aspx" />
+    <Content Include="admin\AddCustomerToPolicy.aspx" />
     <Content Include="admin\AdminDashboard.aspx" />
     <Content Include="admin\ViewAgents.aspx" />
     <Content Include="admin\ViewCustomerInfo.aspx" />
@@ -178,6 +179,13 @@
     </Compile>
     <Compile Include="Account.aspx.designer.cs">
       <DependentUpon>Account.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\AddCustomerToPolicy.aspx.cs">
+      <DependentUpon>AddCustomerToPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AddCustomerToPolicy.aspx.designer.cs">
+      <DependentUpon>AddCustomerToPolicy.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\AdminDashboard.aspx.cs">
       <DependentUpon>AdminDashboard.aspx</DependentUpon>

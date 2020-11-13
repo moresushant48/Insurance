@@ -10,7 +10,7 @@
                 <a href="/agent/AgentDashboard" class="list-group-item list-group-item-action bg-light">Dashboard</a>
                 <a href="/agent/ViewCustomers" class="list-group-item list-group-item-action bg-light">Customers</a>
                 <a href="/agent/ViewPolicies" class="list-group-item list-group-item-action bg-light">Policies</a>
-                <a href="/agent/AddCustomerToPolicy" class="list-group-item list-group-item-action bg-light">Add Customer To Policy</a>
+                <a href="/agent/AddCustomerToPolicy" class="list-group-item list-group-item-action bg-light">Customer To Policy</a>
 
             </div>
         </div>

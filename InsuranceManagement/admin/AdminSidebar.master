@@ -17,6 +17,7 @@
                 <a href="/admin/ViewAgents" class="list-group-item list-group-item-action bg-light">Agents</a>
                 <a href="/admin/ViewCustomers" class="list-group-item list-group-item-action bg-light">Customers</a>
                 <a href="/admin/ViewPolicies" class="list-group-item list-group-item-action bg-light">Policies</a>
+                <a href="/admin/AddCustomerToPolicy" class="list-group-item list-group-item-action bg-light">Customer To Policies</a>
 
             </div>
         </div>

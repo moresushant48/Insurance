@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace InsuranceManagement.agent
+namespace InsuranceManagement.admin
 {
 
 

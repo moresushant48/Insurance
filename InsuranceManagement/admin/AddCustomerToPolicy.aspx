@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Customer's Policy" Language="C#" MasterPageFile="~/agent/AgentSidebar.master" AutoEventWireup="true" CodeBehind="AddCustomerToPolicy.aspx.cs" Inherits="InsuranceManagement.agent.AddCustomerToPolicy" %>
+﻿<%@ Page Title="Customer's Policy" Language="C#" MasterPageFile="~/admin/AdminSidebar.master" AutoEventWireup="true" CodeBehind="AddCustomerToPolicy.aspx.cs" Inherits="InsuranceManagement.admin.AddCustomerToPolicy" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="SidebarContent" runat="server">
 
     <main class="vh-100">
