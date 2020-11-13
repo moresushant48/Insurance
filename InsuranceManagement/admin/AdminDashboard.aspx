@@ -46,6 +46,28 @@
 
         </div>
 
+        <div class="d-md-flex">
+
+            <div class="col card m-2">
+                <div class="d-flex">
+                    <div class="col d-flex">
+                        <i class="fa fa-user-alt text-secondary fa-3x m-auto"></i>
+                    </div>
+                    
+                    <div class="col d-flex">
+                        <asp:GridView ID="GridView3" runat="server" CssClass="m-auto" AutoGenerateColumns="False" DataSourceID="SqlDataSource3">
+                            <Columns>
+                                <asp:BoundField DataField="policies" HeaderStyle-CssClass="border border-white lead p-4 text-secondary" HeaderText="Total Policies" ItemStyle-CssClass="border border-white text-center h3-responsive p-4" ReadOnly="True" SortExpression="policies" />
+                            </Columns>
+                        </asp:GridView>
+
+                        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:insuranceConnectionString %>" SelectCommand="SELECT COUNT(id) AS policies FROM policies"></asp:SqlDataSource>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+
     </main>
 
 </asp:Content>

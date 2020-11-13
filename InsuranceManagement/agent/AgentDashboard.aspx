@@ -20,8 +20,26 @@
                         </asp:GridView>
 
                         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:insuranceConnectionString %>" SelectCommand="SELECT COUNT(id) AS customers FROM customers"></asp:SqlDataSource>
-                        </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="col card m-2">
+                <div class="d-flex">
+                    <div class="col d-flex">
+                        <i class="fa fa-file text-secondary fa-3x m-auto"></i>
+                    </div>
+                    
+                    <div class="col d-flex">
+                        <asp:GridView ID="GridView1" runat="server" CssClass="m-auto" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+                            <Columns>
+                                <asp:BoundField DataField="policies" HeaderStyle-CssClass="border border-white lead p-4 text-secondary" HeaderText="Total Policies" ItemStyle-CssClass="border border-white text-center h3-responsive p-4" ReadOnly="True" SortExpression="policies" />
+                            </Columns>
+                        </asp:GridView>
+
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:insuranceConnectionString %>" SelectCommand="SELECT COUNT(id) AS policies FROM policies"></asp:SqlDataSource>
+                    </div>
+                </div>
             </div>
 
         </div>
