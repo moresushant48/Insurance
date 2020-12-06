@@ -18,7 +18,6 @@ namespace InsuranceManagement.views
                   When the normal user is Logged in.
                  */
                 liSignin.Visible = false;
-                liSignup.Visible = false;
 
                 liDashboard.Visible = false;
                 liAgentDashboard.Visible = false;
@@ -43,7 +42,6 @@ namespace InsuranceManagement.views
                  */
 
                 liSignin.Visible = true;
-                liSignup.Visible = true;
 
                 btnLogout.Visible = false;
                 liAccount.Visible = false;

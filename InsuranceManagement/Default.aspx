@@ -24,7 +24,7 @@
                 <i class="fa fa-quote-right my-4"></i>
                 <br />
 
-                <a href="/SignUp" class="btn animated pulse slower infinite border border-light text-white">Register</a>
+                <a href="/ViewMyPolicy" class="btn animated pulse slower infinite border border-light text-white">View My Policy</a>
 
             </div>
         </div>

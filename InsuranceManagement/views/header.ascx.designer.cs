@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace InsuranceManagement.views {
-    
-    
-    public partial class header {
-        
+namespace InsuranceManagement.views
+{
+
+
+    public partial class header
+    {
+
         /// <summary>
         /// liHome control.
         /// </summary>
@@ -20,16 +22,7 @@ namespace InsuranceManagement.views {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liHome;
-        
-        /// <summary>
-        /// liSignup control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liSignup;
-        
+
         /// <summary>
         /// liSignin control.
         /// </summary>
@@ -38,7 +31,7 @@ namespace InsuranceManagement.views {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liSignin;
-        
+
         /// <summary>
         /// liDashboard control.
         /// </summary>
@@ -47,7 +40,7 @@ namespace InsuranceManagement.views {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDashboard;
-        
+
         /// <summary>
         /// liAgentDashboard control.
         /// </summary>
@@ -56,7 +49,7 @@ namespace InsuranceManagement.views {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAgentDashboard;
-        
+
         /// <summary>
         /// liAccount control.
         /// </summary>
@@ -65,7 +58,7 @@ namespace InsuranceManagement.views {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAccount;
-        
+
         /// <summary>
         /// btnLogout control.
         /// </summary>
