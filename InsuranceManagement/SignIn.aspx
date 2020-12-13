@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Login" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SignIn.aspx.cs" Inherits="InsuranceManagement.SignIn" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <br />
-    <div class="card w-25 m-auto p-4">
+    <div class="card m-auto p-4" style="width:400px">
         <div class="text-center">
             <p class="h2-responsive">Login</p>
         </div>
